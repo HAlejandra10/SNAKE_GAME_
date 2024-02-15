@@ -89,7 +89,10 @@ while True:
             if event.key == pygame.K_UP or event.key == ord('a'):
                 change_to= "LEFT"
             if event.key == pygame.K_UP or event.key == ord('d'):
-                change_to= "RIGHT"            
+                change_to= "RIGHT"   
+                
+            if event.key == pygame.K_ESCAPE:
+                pygame.event.post(pygame.event.Event(pygame.QUIT))         
                 
         
 
