@@ -103,6 +103,17 @@ while True:
         direction = 'LEFT' 
     if change_to == 'RIGHT' and direction != 'LEFT':
         direction = 'RIGHT'
+        
+    #Moving the snake
+    if direction == 'UP':
+        snake_body_position[1] -= 10
+    if direction == 'DOWN':
+        snake_body_position[1] += 10
+    if direction == 'LEFT':
+        snake_body_position[0] -= 10
+    if direction == 'RIGHT':
+        snake_body_position[0] += 10
+        
                 
         
 
