@@ -122,8 +122,10 @@ while True:
     else:
         snake_body_position.pop()
         
-        
-
+    # generate food on the screen
+    if not food_generate:
+        food_position =[random.randrange(1, (frame_size_h//10)) *10, random.randrange(1, (frame_size_v//10)) *10]
+    food_generate = True
 
     
 
