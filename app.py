@@ -146,14 +146,12 @@ while True:
         game_over()
     if snake_initial_position[1] < 0 or snake_initial_position[1] > frame_size_v-10:
         game_over()
-        
-    show_score(1, white, 'consolas', 20)
 
     # touching the snake body
     for block in snake_body_position[1:]:
         if snake_initial_position[0] == block[0] and snake_initial_position[1] == block[1]:
             game_over()
-
+    show_score(1, white, 'consolas', 20)
 
 
 
