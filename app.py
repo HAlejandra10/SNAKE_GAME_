@@ -72,6 +72,11 @@ def show_score(choice, color, font, size):
         score_rect.midtop = (frame_size_h/2, frame_size_v/1.25)
         
     game_window.blit(score_surface, score_rect)
+    # pygame.display.flip()
+    
+#Main logic 
+
+
     
 
 
