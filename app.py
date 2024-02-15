@@ -92,7 +92,11 @@ while True:
                 change_to= "RIGHT"   
                 
             if event.key == pygame.K_ESCAPE:
-                pygame.event.post(pygame.event.Event(pygame.QUIT))         
+                pygame.event.post(pygame.event.Event(pygame.QUIT))    
+    
+    # mMake sure snake no move in the opposite direction instantaneously
+    if change_to == "UP" and direction != "DOWN":
+        direction= "UP"     
                 
         
 
