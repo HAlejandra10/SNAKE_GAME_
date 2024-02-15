@@ -76,6 +76,12 @@ def show_score(choice, color, font, size):
     
 #Main logic 
 
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            
+        
+
 
     
 
