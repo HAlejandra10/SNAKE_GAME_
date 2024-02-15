@@ -42,5 +42,8 @@ food_generate= True
 direction = 'RIGHT'
 change_to = direction
 
+#game score
+score= 0 
+
 
 
