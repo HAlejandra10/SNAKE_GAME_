@@ -34,6 +34,10 @@ fps_controller = pygame.time.Clock()
 # Game variables
 snake_initial_position = [100, 50]
 snake_body_position = [[100, 50], [100-10, 50], [100-(2*10), 50]]
+# food position w/ range
+food_position = [random.randrange(1, (frame_size_h//10))* 10, random.randrange(1, (frame_size_v//10))* 10]
+food_generate= True
+
 
 
 
