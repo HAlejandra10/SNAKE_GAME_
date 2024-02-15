@@ -84,6 +84,12 @@ while True:
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_UP or event.key == ord('w'):
                 change_to= "UP"
+            if event.key == pygame.K_UP or event.key == ord('s'):
+                change_to= "DOWN"
+            if event.key == pygame.K_UP or event.key == ord('a'):
+                change_to= "LEFT"
+            if event.key == pygame.K_UP or event.key == ord('d'):
+                change_to= "RIGHT"            
                 
         
 
