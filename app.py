@@ -137,6 +137,9 @@ while True:
         #10, 10 = width, height
         pygame.draw.rect(game_window, green, pygame.Rect(pos[0], pos[1], 10, 10))
         
+    # Snake food
+    pygame.draw.rect(game_window, white, pygame.Rect(food_position[0], food_position[1], 10, 10))
+        
     
 
 
