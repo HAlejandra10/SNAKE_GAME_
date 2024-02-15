@@ -16,3 +16,7 @@ if check_errors[1] > 0:
     sys.exit(-1)
 else:
     print("[+] Game successfully initialized")
+    
+# to initialize game window
+pygame.display.set_caption("Snake Snacker")
+game_window = pygame.display.set_mode((frame_size_h, frame_size_v))
