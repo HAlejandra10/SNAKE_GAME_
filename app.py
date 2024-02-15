@@ -153,6 +153,11 @@ while True:
             game_over()
     show_score(1, white, 'consolas', 20)
 
+#Refresh game screen
+    pygame.display.update()
+    
+# Refresh rate
+    fps_controller.tick(difficulty_level)
 
 
 
