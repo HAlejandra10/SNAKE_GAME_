@@ -114,7 +114,12 @@ while True:
     if direction == 'RIGHT':
         snake_body_position[0] += 10
         
-                
+    # Snake body growing
+    snake_body_position.insert(0, list(snake_initial_position))
+    if snake_initial_position[0] == food_position[0] and snake_body_position[1] == food_position[1]:
+        score += 1
+        food_generate = False 
+        
         
 
 
