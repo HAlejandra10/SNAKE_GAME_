@@ -28,4 +28,10 @@ red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 
+#controller for frames (FPS)
+fps_controller = pygame.time.Clock()
+
+
+
+
 
